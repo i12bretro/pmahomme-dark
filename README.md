@@ -1,4 +1,4 @@
-Support phpMyAdmin 4.8
+Updated for phpMyAdmin 5.0+
 
 ## Install
 
