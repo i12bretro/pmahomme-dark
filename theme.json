@@ -3,6 +3,6 @@
     "version": "5.0",
     "description": "Default phpMyAdmin theme but darker",
     "author": "",
-    "url": "",
-    "supports": ["5.0"]
+    "url": "https://github.com/i12bretro/pmahomme-dark",
+    "supports": ["5.0", "5.1"]
 }

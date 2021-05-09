@@ -123,7 +123,7 @@
   margin: 0;
   margin-#{$left}: 5px;
   overflow: hidden;
-  color: #f3f3f3;
+  color: #444;
   height: 74%;
   position: relative;
 
@@ -157,20 +157,21 @@
     }
 
     .dbItemControls {
-      padding-#{$left}: 4px;
+      padding-#{$right}: 4px;
+      float: right;
     }
 
     .navItemControls {
       display: none;
-      padding-#{$left}: 4px;
+      padding-#{$right}: 4px;
+      float: right;
     }
 
     &.activePointer .navItemControls {
-      display: inline;
+      display: block;
       opacity: 0.5;
 
       &:hover {
-        display: inline;
         opacity: 1;
       }
     }
@@ -327,7 +328,7 @@ li.fast_filter {
 
   span {
     position: relative;
-    #{$right}: 1.5em;
+    #{$right}: 2.5em;
     padding: 0.2em;
     cursor: pointer;
     font-weight: bold;
@@ -424,7 +425,7 @@ html.ie {
 
     &:hover {
       .drop_button {
-        background: #484d56;
+        background: #fff;
       }
 
       ul {
@@ -439,12 +440,12 @@ html.ie {
       overflow: hidden;
       overflow-y: auto;
       list-style: none;
-      background: #484d56;
-      border: 1px solid #6b6e72;
+      background: #fff;
+      border: 1px solid #ddd;
       border-radius: 0.3em;
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
-      box-shadow: 0 0 5px #1f2226;
+      box-shadow: 0 0 5px #ccc;
       top: 100%;
       #{$left}: 3px;
       #{$right}: 0;
@@ -462,7 +463,7 @@ html.ie {
       }
 
       &:hover {
-        background: $navi-pointer-background;
+        background: #f2f2f2;
       }
     }
 
@@ -480,10 +481,9 @@ html.ie {
 
   .drop_button {
     padding: 0.3em;
-    border: 1px solid #6b6e72;
+    border: 1px solid #ddd;
     border-radius: 0.3em;
-    background: #303338;
+    background: #f2f2f2;
     cursor: pointer;
-    color: $navi-pointer-color;
   }
 }

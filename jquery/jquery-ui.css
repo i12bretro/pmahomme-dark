@@ -582,7 +582,7 @@ button.ui-button::-moz-focus-inner {
 	outline: 0;
 }
 .ui-dialog .ui-dialog-titlebar {
-	padding: 5px;
+	padding: .4em 1em;
 	position: relative;
 }
 .ui-dialog .ui-dialog-title {
@@ -901,22 +901,21 @@ body .ui-tooltip {
 	border: 1px solid #d3d3d3;
 }
 .ui-widget-content {
-	border: 1px solid #393a3c;
-	background: #383c42;
-	color: #eaeaea;
+	border: 1px solid #aaaaaa;
+	background: #ffffff;
+	color: #222222;
 }
 .ui-widget-content a {
-	color: #eaeaea;
+	color: #222222;
 }
 .ui-widget-header {
-	border: 1px solid #393a3c;
-	background: #484d56;
-	color: #fff;
+	border: 1px solid #aaaaaa;
+	background: #cccccc url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x;
+	color: #222222;
 	font-weight: bold;
-	font-size: 18px;
 }
 .ui-widget-header a {
-	color: #eaeaea;
+	color: #222222;
 }
 
 /* Interaction states
@@ -1308,6 +1307,6 @@ a.ui-button:active,
 	filter: Alpha(Opacity=30); /* support: IE8 */
 }
 .ui-widget-shadow {
-	-webkit-box-shadow: -8px -8px 8px #2c2e34;
-	box-shadow: -8px -8px 8px #2c2e34;
+	-webkit-box-shadow: -8px -8px 8px #aaaaaa;
+	box-shadow: -8px -8px 8px #aaaaaa;
 }
